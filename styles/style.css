@@ -35,117 +35,215 @@ body {
     float: right;
 }
 
+.nav li {
+    list-style: none;
+    float: left;
+    margin-top:30px; 
+    margin-right: 60px;
+    font-family: 'Segoe UI';
+    color: #1A1A1A;
+}
+
 
 /* The background image */
 
-.container{
+.container {
     background-image: url("../images/landing.jpg");
     background-size: cover;
+    height: 600px;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 900px;
-    text-align: center;
-    color: #FFF;
+    background-position: center center;
+    padding-top:100px;
 }
 
 /* TEXT ON TOP OF BACKGROUND IMG */
 
 
 .centered {
-   /* display: flex; 
-    align-items: center;
-    width: 450px;
-    float: center;
-    margin-top: center;
-    margin-right: center;
-    font-family: 'Segoe UI';
-    color: white; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: ;
-}
-
-.music h1{
+    width: 60%;
     text-align: center;
-    color: white;
-    font-weight: 100px;
-    font-size: 40px; 
+    margin:0 auto;
+    color: #ffffff;
+    padding-top:100px; 
+
 }
 
-.music h2 {
-    color: #FFF; 
+.centered h1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 5em;
+}
+
+.centered h2 {
+    font-weight: 100;
+    line-height: 1.5;
+    padding-top:20px;
+    font-size: 1.7em;
 }
 
 /* Section 2 - What's on Spotify*/
 
 .offers {
-
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+    padding-top:50px; 
 }
 
 .what-s {
-    display: flex;
-    color: black;
+    width: 320px;
+    padding-bottom:10px; 
+    margin: 0 auto;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #00B172;
-    font-size: ;
-  
-
+    border-bottom: 4px solid #00B172;
 }
 
 .what-s h3{
-    color: white;
-    font-weight: ;
-    font-size: ;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 700;   
 }
 
 .icons {
+    width: 100%;
+    margin-top: 10%;
+}
 
+.icons h4 {
+    color: #00B172;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600; 
+    padding-top:20px;
+    padding-bottom: 30px
+}
+
+.icons p {
+    text-align: center;
+    font-weight:100;
+    font-size: 1.5rem;
 }
 
 .icon-1 {
-
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left:5%;
+}
+.icon-1 img{
+    height: 100px;
 }
 
-.icon-2 {
 
+.icon-2 {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.icon-2 img {
+    height: 100px;
 }
 
 .icon-3{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right:5%; 
+}
 
+.icon-3 img {
+    height: 100px;
 }
 
 /* FOOTER CLASSES */
 
-.foot-bottom{
+.foot-bottom {
+    display: flex;
+    align-content: space-between;
     background-color: #00B172;
-
+    border: 35px solid #ffffff;
 }
 
 .kanye{
-    text-align: ;
-
+    width: 480px;
+    border-bottom: 5px solid #ffffff;
+    margin-left:120px; 
+    margin-top: 50px;
+    padding-bottom:0; 
+    margin-bottom: 50px;
+    margin-right: 0;
 }
 
+.kanye h5 {
+    color:#ffffff;
+    font-size: 2rem;
+    font-weight: 600; 
+    padding-bottom:10px
+}
 
 .box {
-
+    height: 40%;
+    width: 45%;
 }
 
 .box-squares {
+    width: 470px;
+    height: 150px;
+    margin-bottom:50px; 
+    margin-left:120px; 
+    margin-right: 0;
+}
 
+.box-squares h5 {
+    color:#ffffff;
+    font-size: 1.7rem;
+    font-weight: 700; 
+    padding-bottom:10px; 
+    text-align: left;
+}
+
+.box-squares p {
+    color: #ffffff;
+    font-weight:400;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    line-height: 1.5;
 }
 
 .logo-img {
-
+    display: flex;
+    justify-content:center;
+    float: left;
+    width: 40%;
+    margin-left: 50px;
 }
 
-.spotify-log {
+.spotify-logo {
+    display: flex;
+    align-content: center;
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
 
+.spotify-logo img {
+    width: 150px;
+    height: 150px;
 }
 
 .printscreen {
+    width: 300px;
+    height: 480px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+
+.printscreen img {
+    width: 350px;
+    height: 600px;
 
 }
 
